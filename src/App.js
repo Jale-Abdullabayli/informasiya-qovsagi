@@ -21,6 +21,7 @@ function App() {
         <Route path='questions/:id' element={<QuestionDetail />} />
         <Route path='mentors' element={<Mentors />} />
         <Route path='ask-question' element={<AskQuestion />} />
+        <Route path='*' element={<Home />} />
       </Routes>
 
       <Footer />
