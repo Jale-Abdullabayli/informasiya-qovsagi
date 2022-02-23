@@ -15,6 +15,7 @@ function QuestionDetail() {
                     <form>
                         <textarea placeholder="Cavabınız"></textarea>
                         <div className="buttons">
+                            <button className='forward'>İQ köməkçiyə yönləndir</button>
                             <button>Cavab yaz</button>
                         </div>
                     </form>

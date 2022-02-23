@@ -1,29 +1,16 @@
 @import '../../App.scss';
 
-.askForm{
+.registrationForm{
     border:1px solid lightgray;
     padding: 20px 30px;
     border-radius: 4px;
-    select.form-control {
-        -webkit-appearance: menulist;
-    }
     .form-control{
         border: 1px solid #ced4da !important;
     }
     .form-group{
         margin-bottom: 20px;
     }
-    .form-check-input{
-    border:1px solid lightgray !important;
-    box-shadow:none !important;
-    cursor: pointer;
-    &:checked{
-        background-color: $primary-color;
-    }
-
-    }
     .btn{
-        margin-top: 20px;
         background-color:$primary-color;
         color:white;
         padding: 10px 30px;
@@ -32,8 +19,5 @@
 
         }
     }
-    select{
-        color:gray !important;
-        cursor: pointer;
-    }
+   
 }

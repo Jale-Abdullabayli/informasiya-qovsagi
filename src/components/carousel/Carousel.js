@@ -24,11 +24,10 @@ function Carousel() {
                     <div className="carousel-item active">
                         <div className="carouselContent">
                             <div className="carouselCaption">
-                                <h5>Mentor nə üçündür?</h5>
-                                <p>Təsəvvür edin ki, vacib bir imtahana hazırlaşırsız və bu imtahanı bilən adam axtarırsız.
-                                    Təsəvvür edin ki, iş axtarırsız və bu istiqamətdə sizə kömək edə bilən şəxs lazımdır...
+                                <h5>İnformasiya Qovşağı nədir?</h5>
+                                <p>Biz hər bir insana müvafiq mütəxəssislərdən online konsultasiya almağa şərait yaradan platformayıq.
                                 </p>
-                                <Link to="/mentors">Ətraflı</Link>
+                                <Link to="">Ətraflı</Link>
                             </div>
                             <div className="sliderImg">
                                 <img src={slider1} className="d-block" alt="sliderImg"/>
@@ -39,8 +38,8 @@ function Carousel() {
                     <div className="carousel-item">
                         <div className="carouselContent">
                             <div className="carouselCaption">
-                                <h5>Sual-cavab forumu</h5>
-                                <p>Bilmədiyini soruşsan, bir anlıq ağılsızsan. Soruşmasan, ömürlük.</p>
+                                <h5>Sadəcə bir sualım varsa necə?</h5>
+                                <p> lorem lorem lorem</p>
                                 <a href="/ask-question">Ətraflı</a>
                             </div>
                             <div className="sliderImg">
@@ -52,11 +51,9 @@ function Carousel() {
                     <div className="carousel-item">
                         <div className="carouselContent">
                             <div className="carouselCaption">
-                                <h5>Biz kimik?</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolore qui pariatur totam
-                                    nisi, est rerum atque neque doloremque sapiente aliquam accusantium, accusamus facere
-                                    enim quo vel? Possimus, minima facilis!</p>
-                                <Link to="">Ətraflı</Link>
+                                <h5>Daha ətraflı öyrənmək istəyirəmsə bəs?</h5>
+                                <p>lorem lorem lorem</p>
+                                <Link to="/contact">Ətraflı</Link>
                             </div>
                             <div className="sliderImg">
                                 <img src={slider3} className="d-block" alt="sliderImg"/>

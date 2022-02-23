@@ -1,8 +1,15 @@
 @import "../../App.scss";
 
 .topMentors{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
     h2{
         color:$primary-color;
         margin-bottom: 20px;
+    }
+    .allMentors{
+        text-decoration: none;
+        color: $primary-color;
     }
 }
