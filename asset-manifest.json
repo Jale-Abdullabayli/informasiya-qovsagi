@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/informasiya-qovsagi/static/css/main.3bf8f5c4.css",
-    "main.js": "/informasiya-qovsagi/static/js/main.f52ba4fb.js",
+    "main.css": "/informasiya-qovsagi/static/css/main.2c7959e9.css",
+    "main.js": "/informasiya-qovsagi/static/js/main.02e5d89f.js",
     "static/js/787.25db9e91.chunk.js": "/informasiya-qovsagi/static/js/787.25db9e91.chunk.js",
     "static/media/slider1.jpg": "/informasiya-qovsagi/static/media/slider1.0c2b38ed3aab901eac3b.jpg",
     "static/media/slider2.jpg": "/informasiya-qovsagi/static/media/slider2.0d91765f8c5e301cb7e6.jpg",
     "static/media/mentor1.jpg": "/informasiya-qovsagi/static/media/mentor1.035b4e61d408a6de68a3.jpg",
     "static/media/slider3.jpg": "/informasiya-qovsagi/static/media/slider3.7b7fb418648bffb55eb1.jpg",
     "index.html": "/informasiya-qovsagi/index.html",
-    "main.3bf8f5c4.css.map": "/informasiya-qovsagi/static/css/main.3bf8f5c4.css.map",
-    "main.f52ba4fb.js.map": "/informasiya-qovsagi/static/js/main.f52ba4fb.js.map",
+    "main.2c7959e9.css.map": "/informasiya-qovsagi/static/css/main.2c7959e9.css.map",
+    "main.02e5d89f.js.map": "/informasiya-qovsagi/static/js/main.02e5d89f.js.map",
     "787.25db9e91.chunk.js.map": "/informasiya-qovsagi/static/js/787.25db9e91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bf8f5c4.css",
-    "static/js/main.f52ba4fb.js"
+    "static/css/main.2c7959e9.css",
+    "static/js/main.02e5d89f.js"
   ]
 }
