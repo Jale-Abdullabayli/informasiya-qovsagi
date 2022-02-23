@@ -31,7 +31,7 @@ function QuestionDetail() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis quae ipsam
                                 vitae
                                 expedita tempore sequi architecto perferendis ullam autem</p>
-                            <div className="mentor">
+                            <div className="IsMentor">
                                 Full stack üzrə mentor
                             </div>
                         </div>
