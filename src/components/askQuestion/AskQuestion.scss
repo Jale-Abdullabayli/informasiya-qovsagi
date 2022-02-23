@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.askForm{
+    border:1px solid lightgray;
+    padding: 20px 30px;
+    border-radius: 4px;
+    .form-control{
+        border: 1px solid #ced4da !important;
+    }
+    .form-group{
+        margin-bottom: 20px;
+    }
+    .btn{
+        background-color:$primary-color;
+        color:white;
+        padding: 10px 30px;
+        &:hover{
+        color:white;
+
+        }
+    }
+    select{
+        color:gray !important;
+    }
+}

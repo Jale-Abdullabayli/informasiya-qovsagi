@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Questions from './components/questions/Questions';
+import Mentors from './components/mentors/Mentors';
+import AskQuestion from './components/askQuestion/AskQuestion';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import QuestionDetail from './components/questionDetail/QuestionDetail';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router >
+
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='questions' element={<Questions />} />
+        <Route path='questions/:id' element={<QuestionDetail />} />
+        <Route path='mentors' element={<Mentors />} />
+        <Route path='ask-question' element={<AskQuestion />} />
+      </Routes>
+
+      <Footer />
+    </Router>
+
   );
 }
 

@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.mentor {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    border-radius: 4px;
+    padding: 20px 30px;
+    display: flex;
+    min-height: 160px;
+    align-items: flex-start;
+    img {
+      width: 100px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    .about {
+      h2 {
+        font-size: 26px;
+      }
+      h3 {
+        font-size: 16px;
+        color: gray;
+      }
+      .stars {
+        display: flex;
+        i {
+          margin-right: 5px;
+          color: #ffba00;
+        }
+      }
+      a {
+        color: #1eaf99;
+        text-decoration: none;
+        margin-top: 10px;
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }

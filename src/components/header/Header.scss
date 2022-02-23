@@ -1,0 +1,43 @@
+@import "../../App.scss";
+
+.navbar {
+
+  background-color: $primary-color;
+  padding: 20px 0;
+  height: 10vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .navbar-brand {
+    font-size: 40px;
+    font-family: "Redressed", cursive;
+    margin-right: 30px;
+  }
+  .rightSide {
+    display: flex;
+    align-items: center;
+
+    a {
+      background-color: white;
+      padding: 5px 30px;
+      display: flex;
+      align-items: center;
+      border-radius: 50px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      display: flex;
+      align-items: center;
+      &:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      &:first-child {
+        margin-right: 5px;
+      }
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+  .nav-link {
+    font-size: 20px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

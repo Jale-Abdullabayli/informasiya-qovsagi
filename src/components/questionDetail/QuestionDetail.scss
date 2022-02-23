@@ -1,0 +1,102 @@
+@import "../../App.scss";
+
+.replies {
+  textarea {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    height: 100px;
+    width: 100%;
+    border-radius: 4px;
+    background-color:transparent;
+    &:focus {
+      border: 1px solid $primary-color;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+    button {
+      background-color: $primary-color;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 4px;
+      min-width: 200px;
+    
+    }
+  }
+  .reply {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 20px 30px;
+    .questionDetail {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+  .otherReplies {
+    border: 1px solid lightgray;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #d3d3d336;
+    h2{
+      margin-bottom: 20px;
+      color:$primary-color;
+
+    }
+    .otherReply {
+      border: 1px solid lightgray;
+      padding: 20px 30px;
+      border-radius: 4px;
+      position: relative;
+
+      .replyDetail{
+        .author{
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: 10px;
+          h3{
+            font-size: 20px;
+            margin-right: 10px;
+            margin-bottom: 0;
+            line-height: 1;
+
+          }
+          .date{
+            line-height: 1;
+            color:gray;
+          }
+        }
+        .mentor {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #bf3838;
+          padding: 5px 10px;
+          color: white;
+          border-top-right-radius: 4px;
+        }
+      }
+
+      .innerReply{
+        border: 1px solid lightgray;
+        padding: 20px 30px;
+        border-radius: 4px;
+        background-color:#ececec;
+        margin-top: 20px;
+        .innerReplyTitle{
+          font-size: 20px;
+          margin-bottom: 20px;
+      color:$primary-color;
+
+        }
+      }
+    }
+
+  
+  }
+}
