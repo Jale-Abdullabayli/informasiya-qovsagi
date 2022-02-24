@@ -7,27 +7,88 @@ import './MentorList.scss';
 function MentorList() {
   return (
     <div className="row">
-    <div className="col-md-6">
+    <div className="col-md-6 mb-3">
         <div className="mentor">
             <img src={mentor1} alt="" />
+            <div className="about">
+                <h2>Əli Əliyev</h2>
+                <h3>Pianist</h3>
+                <div className="stars">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                </div>
+                <Link to=""> Cavabladığı suallara baxın</Link>
+            </div>
+        </div>
+    </div>
+    <div className="col-md-6 mb-3">
+        <div className="mentor">
+            <img src={mentor2} alt="" />
             <div className="about">
                 <h2>Arzu Hacıyeva</h2>
                 <h3>Full stack developer</h3>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
                 </div>
                 <Link to="">Cavabladığı suallara bax</Link>
+
             </div>
         </div>
     </div>
-    <div className="col-md-6">
+    <div className="col-md-6 mb-3">
         <div className="mentor">
             <img src={mentor2} alt="" />
             <div className="about">
-                <h2>Arzu Hacıyeva</h2>
-                <h3>Full stack developer</h3>
+                <h2>İradə Hacıyeva</h2>
+                <h3>Psixoloq</h3>
+                <div className="stars">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                </div>
+                <Link to="">Cavabladığı suallara bax</Link>
+
+            </div>
+        </div>
+    </div>
+    <div className="col-md-6 mb-3">
+        <div className="mentor">
+            <img src={mentor1} alt="" />
+            <div className="about">
+                <h2>Ramiz Quliyev</h2>
+                <h3>Flutter developer</h3>
+                <div className="stars">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                </div>
+                <Link to=""> Cavabladığı suallara baxın</Link>
+            </div>
+        </div>
+    </div>
+    
+    <div className="col-md-6 mb-3">
+        <div className="mentor">
+            <img src={mentor1} alt="" />
+            <div className="about">
+                <h2>Murad Həsənov</h2>
+                <h3>Front end developer</h3>
+                <div className="stars">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                </div>
+                <Link to=""> Cavabladığı suallara baxın</Link>
+            </div>
+        </div>
+    </div>
+    <div className="col-md-6 mb-3">
+        <div className="mentor">
+            <img src={mentor2} alt="" />
+            <div className="about">
+                <h2>Səkinə Abdullayeva</h2>
+                <h3>HR</h3>
                 <div className="stars">
                     <i className="fa-solid fa-star"></i>
                     <i className="fa-solid fa-star"></i>

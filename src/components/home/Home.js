@@ -13,9 +13,9 @@ function Home() {
       <section className='container '>
         <div className='topMentors'>
           <h2>
-            Ən bəyənilən 2 mentor
+          Ən çox bəyənilən İQ köməkçilər
           </h2>
-          <Link to="/mentors" className='allMentors'>Bütün mentorlara bax</Link>
+          <Link to="/mentors" className='allMentors'>Bütün İQ köməkçilərə baxın</Link>
         </div>
 
         <MentorList />

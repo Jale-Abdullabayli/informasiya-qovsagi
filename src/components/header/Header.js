@@ -20,11 +20,11 @@ function Header() {
                     <NavLink className="nav-link" activeClassName="active"  aria-current="page" to="/">Ana səhifə</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" activeClassName="active"  to="/questions">Suallar</NavLink>
+                    <NavLink className="nav-link" activeClassName="active"  to="/questions">Qovşaq</NavLink>
                 </li>
 
                 <li className="nav-item">
-                    <NavLink className="nav-link" activeClassName="active" to="/mentors">Mentorlar</NavLink>
+                    <NavLink className="nav-link" activeClassName="active" to="/mentors">İQ Köməkçilər</NavLink>
                 </li>
 
                 <li className="nav-item">
@@ -35,7 +35,7 @@ function Header() {
             <div className="rightSide">
                 <Link className="btn" to="ask-question">
                     <i className="fa-solid fa-lightbulb"></i>
-                    <span>Sual ver</span>
+                    <span>Sual verin</span>
                 </Link>
                 <Link className="btn" to="login">
                     <i className="fa-solid fa-user"></i>
