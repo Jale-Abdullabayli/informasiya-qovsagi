@@ -16,12 +16,12 @@
   }
   .contactRow {
       
-    border: 1px solid lightgray;
-    border-radius: 4px;
 
     .leftCol {
-      border-right: 1px solid lightgray;
       .contactForm {
+      border: 1px solid lightgray;
+      border-radius: 4px;
+
         padding: 20px 30px;
         .form-control {
           border: 1px solid #ced4da !important;
@@ -47,6 +47,9 @@
       }
     }
     .contactDetails {
+      border: 1px solid lightgray;
+      border-radius: 4px;
+
         height: 100%;
       padding: 20px 30px;
       text-align: center;
