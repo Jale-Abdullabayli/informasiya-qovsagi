@@ -34,11 +34,11 @@ function Header() {
             </ul>
             <div className="rightSide">
                 <Link className="btn" to="ask-question">
-                    <i className="fa-solid fa-lightbulb"></i>
+                    {/* <i className="fa-solid fa-lightbulb"></i> */}
                     <span>Sual verin</span>
                 </Link>
                 <Link className="btn" to="login">
-                    <i className="fa-solid fa-user"></i>
+                    {/* <i className="fa-solid fa-user"></i> */}
                     <span>Giriş</span>
                 </Link>
             </div>

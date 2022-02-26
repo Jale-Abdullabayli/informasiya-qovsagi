@@ -1,0 +1,84 @@
+@import "../../App.scss";
+
+.contact {
+  .contactTitle {
+    border: 1px solid lightgray;
+
+    border-radius: 4px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    h4{
+        color:$primary-color;
+    }
+    p{
+        color:#302929;
+    }
+  }
+  .contactRow {
+      
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+    .leftCol {
+      border-right: 1px solid lightgray;
+      .contactForm {
+        padding: 20px 30px;
+        .form-control {
+          border: 1px solid #ced4da !important;
+        }
+        .form-group {
+          margin-bottom: 20px;
+        }
+        .btn {
+          background-color: $primary-color;
+          color: white;
+          padding: 10px 30px;
+          &:hover {
+            color: white;
+          }
+        }
+        .registrationLink {
+          margin-top: 10px;
+          font-size: 14px;
+          a {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+    .contactDetails {
+        height: 100%;
+      padding: 20px 30px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .socialLinks {
+          margin-top: 40px;
+        a {
+          color: $primary-color;
+          margin: 0 20px;
+          svg {
+            font-size: 22px;
+          }
+        }
+      }
+      .contactDetail {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        transition: 0.3s;
+        &:hover {
+          color: $primary-color;
+        }
+        svg {
+          margin-right: 10px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

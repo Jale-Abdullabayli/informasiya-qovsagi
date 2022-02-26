@@ -19,10 +19,8 @@ function Login() {
                         />
                     </div>
 
-
-
                     <button type="submit" className="btn">Daxil ol</button>
-                    <h6 className='registrationLink'>Hesabın yoxdursa, ilk öncə <Link to='/registration'>buradan</Link> qeydiyyatdan keç.</h6>
+                    <h6 className='registrationLink'>Hesabınız yoxdursa, ilk öncə <Link to='/registration'>buradan</Link> qeydiyyatdan keçin.</h6>
                     
                 </form>
             </div>

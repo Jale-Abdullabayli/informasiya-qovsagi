@@ -1,12 +1,26 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 footer {
   text-align: center;
   background-color: #fafafa;
   border-top: 1px solid rgba($color: black, $alpha: 0.2);
   padding: 30px 0;
-  h5 {
-    margin-bottom: 0;
-    font-size: 16px;
+  .footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h5 {
+      margin-bottom: 0;
+      font-size: 16px;
+    }
+    .socialLinks {
+      a {
+        color: $primary-color;
+        margin-left: 20px;
+        svg {
+          font-size: 22px;
+        }
+      }
+    }
   }
 }

@@ -33,7 +33,7 @@ function QuestionDetail() {
                                 vitae
                                 expedita tempore sequi architecto perferendis ullam autem</p>
                             <div className="IsMentor">
-                                Full stack üzrə mentor
+                                Full stack üzrə İQ Köməkçi
                             </div>
                         </div>
                         <form>

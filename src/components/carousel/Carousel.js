@@ -39,7 +39,7 @@ function Carousel() {
                         <div className="carouselContent">
                             <div className="carouselCaption">
                                 <h5>Sadəcə bir sualım varsa necə?</h5>
-                                <p> lorem lorem lorem</p>
+                                <p>Platformamızın Qovşaq bölməsindən istifadə edərək, tam ödənişsiz şəkildə sualınızı axtara və ya ictimaiyyət üçün yeni yarada bilərsiniz.</p>
                                 <a href="/ask-question">Ətraflı</a>
                             </div>
                             <div className="sliderImg">
@@ -52,7 +52,7 @@ function Carousel() {
                         <div className="carouselContent">
                             <div className="carouselCaption">
                                 <h5>Daha ətraflı öyrənmək istəyirəmsə bəs?</h5>
-                                <p>lorem lorem lorem</p>
+                                <p>Bizim ilə əlaqə qurmaq üçün zəhmət olmasa aşağıdakı düymədən istifadə edin.</p>
                                 <Link to="/contact">Ətraflı</Link>
                             </div>
                             <div className="sliderImg">

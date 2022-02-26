@@ -7,6 +7,7 @@ import Mentors from './components/mentors/Mentors';
 import Login from './components/login/Login';
 import AskQuestion from './components/askQuestion/AskQuestion';
 import Registration from './components/registration/Registration';
+import Contact from './components/contact/Contact';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import QuestionDetail from './components/questionDetail/QuestionDetail';
@@ -25,6 +26,7 @@ function App() {
         <Route path='login' element={<Login />} />
         <Route path='registration' element={<Registration />} />
         <Route path='ask-question' element={<AskQuestion />} />
+        <Route path='contact' element={<Contact />} />
       </Routes>
 
       <Footer />
