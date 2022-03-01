@@ -46,6 +46,13 @@
 }
 
 @media (max-width:768px) {
+  .navbar {
+    .navbar-brand{
+margin-right: 0;
+font-size: 18px;
+    }
+  
+ 
   .navbar-collapse {
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 
@@ -73,6 +80,6 @@
         color:white;
       }
     }
-  }
+  }}
  
 }
