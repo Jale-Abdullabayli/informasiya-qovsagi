@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,QADI,CACJ,YAAY,CAAA;EACR,UAAU,EAAE,qBAAqB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;EAEjD,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,IAAI;CAOtB;;AAbL,AAOQ,QAPA,CACJ,YAAY,CAMR,EAAE,CAAA;EACE,KAAK,ECVD,OAAO;CDWd;;AATT,AAUQ,QAVA,CACJ,YAAY,CASR,CAAC,CAAA;EACG,KAAK,EAAC,OAAO;CAChB",
+    "sources": [
+        "../mentors/Mentors.scss",
+        "../../App.scss"
+    ],
+    "names": [],
+    "file": "Mentors.css"
+}

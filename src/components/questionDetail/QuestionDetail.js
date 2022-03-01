@@ -29,12 +29,13 @@ function QuestionDetail() {
                                 <h3>Bahar Abdullayeva</h3>
                                 <span className="date">1 gün əvvəl</span>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis quae ipsam
-                                vitae
-                                expedita tempore sequi architecto perferendis ullam autem</p>
                             <div className="IsMentor">
                                 Full stack üzrə İQ Köməkçi
                             </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis quae ipsam
+                                vitae
+                                expedita tempore sequi architecto perferendis ullam autem</p>
+                            
                         </div>
                         <form>
                             <textarea placeholder="Cavabınız"></textarea>

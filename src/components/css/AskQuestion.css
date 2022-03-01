@@ -1,0 +1,45 @@
+.askForm {
+  border: 1px solid lightgray;
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.askForm select.form-control {
+  -webkit-appearance: menulist;
+}
+
+.askForm .form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.askForm .form-group {
+  margin-bottom: 20px;
+}
+
+.askForm .form-check-input {
+  border: 1px solid lightgray !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  cursor: pointer;
+}
+
+.askForm .form-check-input:checked {
+  background-color: #4c7b74;
+}
+
+.askForm .btn {
+  margin-top: 20px;
+  background-color: #4c7b74;
+  color: white;
+  padding: 10px 30px;
+}
+
+.askForm .btn:hover {
+  color: white;
+}
+
+.askForm select {
+  color: gray !important;
+  cursor: pointer;
+}
+/*# sourceMappingURL=AskQuestion.css.map */

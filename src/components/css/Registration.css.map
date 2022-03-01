@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,iBAAiB,CAAA;EACb,MAAM,EAAC,mBAAmB;EAC1B,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,GAAG;CAiBrB;;AApBD,AAII,iBAJa,CAIb,aAAa,CAAA;EACT,MAAM,EAAE,4BAA4B;CACvC;;AANL,AAOI,iBAPa,CAOb,WAAW,CAAA;EACP,aAAa,EAAE,IAAI;CACtB;;AATL,AAUI,iBAVa,CAUb,IAAI,CAAA;EACA,gBAAgB,ECbR,OAAO;EDcf,KAAK,EAAC,KAAK;EACX,OAAO,EAAE,SAAS;CAKrB;;AAlBL,AAcQ,iBAdS,CAUb,IAAI,AAIC,MAAM,CAAA;EACP,KAAK,EAAC,KAAK;CAEV",
+    "sources": [
+        "../registration/Registration.scss",
+        "../../App.scss"
+    ],
+    "names": [],
+    "file": "Registration.css"
+}

@@ -1,0 +1,16 @@
+.mentors .mentorTitle {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+
+.mentors .mentorTitle h4 {
+  color: #4c7b74;
+}
+
+.mentors .mentorTitle p {
+  color: #302929;
+}
+/*# sourceMappingURL=Mentors.css.map */

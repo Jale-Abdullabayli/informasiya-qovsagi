@@ -13,7 +13,7 @@ function Questions() {
                     
                     <div className="questionList">
                      <div className='row'>
-                         <div className='col-md-6'>
+                         <div className='col-md-6 mb-3 mb-md-0'>
                          <Link to="/questions/1" className="question">
                             <h2  className='questionTitle'>Lorem ipsum sit amet consectetur adipisicing elit?</h2>
                             <div className='statistics'>
@@ -27,7 +27,7 @@ function Questions() {
                            
                         </Link>
                          </div>
-                         <div className='col-md-6'>
+                         <div className='col-md-6 mb-3 mb-md-0'>
                          <Link to="/questions/1" className="question">
                             <h2  className='questionTitle'>Lorem ipsum sit amet consectetur adipisicing elit?</h2>
                             <div className='statistics'>

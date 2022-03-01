@@ -1,0 +1,54 @@
+.mentor {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 160px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mentor img {
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
+
+.mentor .about h2 {
+  font-size: 26px;
+}
+
+.mentor .about h3 {
+  font-size: 16px;
+  color: gray;
+}
+
+.mentor .about .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mentor .about .stars svg {
+  margin-right: 5px;
+  color: #ffba00;
+}
+
+.mentor .about a {
+  color: #1eaf99;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.mentor .about a:hover {
+  color: #4c7b74;
+}
+/*# sourceMappingURL=MentorList.css.map */

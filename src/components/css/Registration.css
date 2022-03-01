@@ -1,0 +1,24 @@
+.registrationForm {
+  border: 1px solid lightgray;
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.registrationForm .form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.registrationForm .form-group {
+  margin-bottom: 20px;
+}
+
+.registrationForm .btn {
+  background-color: #4c7b74;
+  color: white;
+  padding: 10px 30px;
+}
+
+.registrationForm .btn:hover {
+  color: white;
+}
+/*# sourceMappingURL=Registration.css.map */

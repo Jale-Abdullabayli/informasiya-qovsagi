@@ -8,7 +8,7 @@
     height: 100px;
     width: 100%;
     border-radius: 4px;
-    background-color:transparent;
+    background-color: transparent;
     &:focus {
       border: 1px solid $primary-color;
     }
@@ -24,9 +24,9 @@
       padding: 10px 30px;
       border-radius: 4px;
       min-width: 200px;
-    &.forward{
-      margin-right: 10px;
-    }
+      &.forward {
+        margin-right: 10px;
+      }
     }
   }
   .reply {
@@ -45,10 +45,9 @@
     margin-top: 20px;
     border-radius: 4px;
     background-color: #d3d3d336;
-    h2{
+    h2 {
       margin-bottom: 20px;
-      color:$primary-color;
-
+      color: $primary-color;
     }
     .otherReply {
       border: 1px solid lightgray;
@@ -56,21 +55,20 @@
       border-radius: 4px;
       position: relative;
 
-      .replyDetail{
-        .author{
+      .replyDetail {
+        .author {
           display: flex;
           align-items: flex-end;
           margin-bottom: 10px;
-          h3{
+          h3 {
             font-size: 20px;
             margin-right: 10px;
             margin-bottom: 0;
             line-height: 1;
-
           }
-          .date{
+          .date {
             line-height: 1;
-            color:gray;
+            color: gray;
           }
         }
         .IsMentor {
@@ -84,21 +82,65 @@
         }
       }
 
-      .innerReply{
+      .innerReply {
         border: 1px solid lightgray;
         padding: 20px 30px;
         border-radius: 4px;
-        background-color:#ececec;
+        background-color: #ececec;
         margin-top: 20px;
-        .innerReplyTitle{
+        .innerReplyTitle {
           font-size: 20px;
           margin-bottom: 20px;
-      color:$primary-color;
-
+          color: $primary-color;
         }
       }
     }
+  }
+}
 
-  
+@media (max-width: 768px) {
+  .replies {
+    .otherReplies {
+      padding: 10px 20px;
+      h2 {
+        margin-bottom: 10px;
+      }
+      .otherReply {
+        padding: 10px 20px;
+        .innerReply {
+          padding: 10px 20px;
+          .innerReplyTitle {
+            margin-bottom: 10px;
+          }
+        }
+        .replyDetail {
+          .IsMentor {
+            font-weight: bold;
+            position: relative;
+            background-color: transparent;
+            color: #bf3838;
+            padding: 0;
+          }
+        }
+      }
+    }
+    .buttons {
+      justify-content: space-between;
+      button {
+        min-width: auto;
+        padding: 10px 20px;
+      }
+    }
+    .reply {
+      padding: 10px 20px;
+      .questionDetail {
+        h2 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }

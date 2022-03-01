@@ -14,7 +14,7 @@ function Contact() {
                         <b> İQ köməkçi kimi fəaliyyət göstərmək </b> üçün bizimlə əlaqə saxlayın.</p>
                 </div>
                 <div className='row contactRow'>
-                    <div className='col-md-8 leftCol'>
+                    <div className='col-md-8 order-1 order-md-0 leftCol'>
                         <form className='contactForm'>
                             <div className="form-group">
                                 <label for="username">Adınız soyadınız</label>
@@ -44,7 +44,7 @@ function Contact() {
 
                         </form>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mb-3 mb-md-0'>
                         <div className='contactDetails'>
                            <div>
                            <a href='tel:+994558966083' className='contactDetail'>

@@ -24,3 +24,15 @@ footer {
     }
   }
 }
+
+@media (max-width:768px) {
+  footer{
+    .footerContainer{
+      flex-direction: column;
+      .socialLinks{
+        order: -1;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

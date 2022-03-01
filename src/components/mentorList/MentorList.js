@@ -2,6 +2,7 @@ import React from 'react'
 import mentor1 from '../../assets/images/mentor1.jpg';
 import mentor2 from '../../assets/images/mentor2.png';
 import { Link } from "react-router-dom";
+import { AiFillStar } from 'react-icons/ai';
 import './MentorList.scss';
 
 function MentorList() {
@@ -14,9 +15,7 @@ function MentorList() {
                 <h2>Əli Əliyev</h2>
                 <h3>Pianist</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
                 </div>
                 <Link to=""> Cavabladığı suallara baxın</Link>
             </div>
@@ -29,8 +28,7 @@ function MentorList() {
                 <h2>Arzu Hacıyeva</h2>
                 <h3>Full stack developer</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
                 </div>
                 <Link to="">Cavabladığı suallara bax</Link>
 
@@ -44,8 +42,7 @@ function MentorList() {
                 <h2>İradə Hacıyeva</h2>
                 <h3>Psixoloq</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
                 </div>
                 <Link to="">Cavabladığı suallara bax</Link>
 
@@ -59,9 +56,8 @@ function MentorList() {
                 <h2>Ramiz Quliyev</h2>
                 <h3>Flutter developer</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
+                    <AiFillStar/>     <AiFillStar/>
                 </div>
                 <Link to=""> Cavabladığı suallara baxın</Link>
             </div>
@@ -75,9 +71,8 @@ function MentorList() {
                 <h2>Murad Həsənov</h2>
                 <h3>Front end developer</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
+                    <AiFillStar/>
                 </div>
                 <Link to=""> Cavabladığı suallara baxın</Link>
             </div>
@@ -90,8 +85,7 @@ function MentorList() {
                 <h2>Səkinə Abdullayeva</h2>
                 <h3>HR</h3>
                 <div className="stars">
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                    <AiFillStar/>     <AiFillStar/>
                 </div>
                 <Link to="">Cavabladığı suallara bax</Link>
 

@@ -1,0 +1,33 @@
+.loginForm {
+  border: 1px solid lightgray;
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.loginForm .form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.loginForm .form-group {
+  margin-bottom: 20px;
+}
+
+.loginForm .btn {
+  background-color: #4c7b74;
+  color: white;
+  padding: 10px 30px;
+}
+
+.loginForm .btn:hover {
+  color: white;
+}
+
+.loginForm .registrationLink {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.loginForm .registrationLink a {
+  color: #4c7b74;
+}
+/*# sourceMappingURL=Login.css.map */

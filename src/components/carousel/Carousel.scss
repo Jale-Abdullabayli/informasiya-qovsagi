@@ -67,3 +67,41 @@
         background-color:$primary-color;
     }
   }
+
+@media (max-width:768px) {
+    .carousel{
+        max-height: 450px;
+        span[class*=carousel-control] *{
+            font-size: 30px;
+        }
+        .carousel-item {
+            .carouselContent{
+                flex-direction: column;
+                padding-top: 20px;
+                justify-content:flex-start;
+                .sliderImg{
+                    margin-top: 5px;
+                    width: 60%;
+                    max-height: 200px;
+                    order: -1;
+                    margin-bottom: 20px;
+                    img{
+                        object-fit: contain;
+                    }
+                }
+                .carouselCaption{
+                    z-index: 1;
+                    h5{
+                        font-weight: 500 !important;
+                        font-size: 30px !important;
+                        margin-bottom: 10px !important;
+                    }
+                    p{
+                        margin-bottom: 15px !important;
+
+                    }
+                }
+            }
+        }
+      }
+}

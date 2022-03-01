@@ -1,0 +1,33 @@
+.topMentors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.topMentors h2 {
+  color: #4c7b74;
+  margin-bottom: 0;
+}
+
+.topMentors .allMentors {
+  text-decoration: none;
+  color: #4c7b74;
+}
+
+@media (max-width: 768px) {
+  .topMentors h2 {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .topMentors a {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,99 @@
+.contact .contactTitle {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+
+.contact .contactTitle h4 {
+  color: #4c7b74;
+}
+
+.contact .contactTitle p {
+  color: #302929;
+}
+
+.contact .contactRow .leftCol .contactForm {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+
+.contact .contactRow .leftCol .contactForm .form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.contact .contactRow .leftCol .contactForm .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .contactRow .leftCol .contactForm .btn {
+  background-color: #4c7b74;
+  color: white;
+  padding: 10px 30px;
+}
+
+.contact .contactRow .leftCol .contactForm .btn:hover {
+  color: white;
+}
+
+.contact .contactRow .leftCol .contactForm .registrationLink {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contact .contactRow .leftCol .contactForm .registrationLink a {
+  color: #4c7b74;
+}
+
+.contact .contactRow .contactDetails {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  height: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .contactRow .contactDetails .socialLinks a {
+  color: #4c7b74;
+  margin: 0 20px;
+}
+
+.contact .contactRow .contactDetails .socialLinks a svg {
+  font-size: 22px;
+}
+
+.contact .contactRow .contactDetails .contactDetail {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contactRow .contactDetails .contactDetail:hover {
+  color: #4c7b74;
+}
+
+.contact .contactRow .contactDetails .contactDetail svg {
+  margin-right: 10px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=Contact.css.map */
