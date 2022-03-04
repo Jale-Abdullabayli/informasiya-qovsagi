@@ -6,11 +6,7 @@ function askQuestion() {
         <section className="ask">
             <div className="container">
                 <form className='askForm'>
-                    <div className="form-group">
-                        <label for="exampleFormControlInput1">Ad soyadınız</label>
-                        <input type="text" className="form-control" id="exampleFormControlInput1"
-                        />
-                    </div>
+     
                     <div className="form-group">
                         <label for="exampleFormControlSelect1">Kategoriya</label>
                         <select className="form-control" id="exampleFormControlSelect1">

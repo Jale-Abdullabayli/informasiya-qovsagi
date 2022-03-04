@@ -1,8 +1,15 @@
 import React from 'react'
 import './Mentors.scss';
 import MentorList from '../mentorList/MentorList';
+import { connect } from 'react-redux';
+import { fetchMentors } from '../../redux'
+import { useEffect } from 'react';
 
-function Mentors() {
+function Mentors({ mentorsData, fetchMentors }) {
+    useEffect(() => {
+        fetchMentors();
+    }, []);
+
     return (
         <section className="mentors">
             <div className="container">
@@ -15,10 +22,30 @@ function Mentors() {
                         Bu platforma məhz İQ - İnformasiya Qovşağımızdır.
                         Biz sizlərə sadaladığımız hallar ilə yanaşı bir çox digər hallarda zəruri olan konsultasiya xidmətlərini əlçatan və sərfəli etməyi özümüzə missiya seçmişik.</p>
                 </div>
-               <MentorList/>
+                {
+                    mentorsData.loading ? <h2>Yüklənir...</h2> :
+                        mentorsData.error ? <h2>{mentorsData.error}</h2> :
+                            <div>
+                                {
+                                    mentorsData && mentorsData.mentors &&
+                                    <MentorList mentors={mentorsData.mentors} />
+                                }
+                            </div>
+
+                }
             </div>
         </section>
     )
 }
+const mapStateToProps = state => {
+    return {
+        mentorsData: state.mentor
+    }
+}
 
-export default Mentors
+const mapDispatchToProps = dispatch => {
+    return {
+        fetchMentors: () => dispatch(fetchMentors())
+    }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(Mentors)

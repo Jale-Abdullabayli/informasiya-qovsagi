@@ -7,6 +7,18 @@ function Registration() {
     <div className="container">
         <form className='registrationForm'>
             <div className="form-group">
+                <label for="username">Adınız soyadınız</label>
+                <input type="text" className="form-control" id="full name"
+                />
+            </div>
+
+            <div className="form-group">
+                <label for="username">Emailiniz</label>
+                <input type="email" className="form-control" id="email"
+                />
+            </div>
+
+            <div className="form-group">
                 <label for="username">İstifadəçi adı</label>
                 <input type="text" className="form-control" id="username"
                 />

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { AiFillStar } from 'react-icons/ai';
 import './MentorList.scss';
 
-function MentorList() {
+function MentorList({mentors}) {
   return (
     <div className="row">
     <div className="col-md-6 mb-3">

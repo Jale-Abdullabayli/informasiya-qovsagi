@@ -41,6 +41,9 @@ function Header() {
                     {/* <i className="fa-solid fa-user"></i> */}
                     <span>Giriş</span>
                 </Link>
+                <Link className="btn" to="profil">
+                    <span>Profilim</span>
+                </Link>
             </div>
         </div>
     </div>
