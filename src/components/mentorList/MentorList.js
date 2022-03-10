@@ -13,7 +13,7 @@ function MentorList({mentors}) {
             <img src={mentor1} alt="" />
             <div className="about">
                 <h2>Əli Əliyev</h2>
-                <h3>Pianist</h3>
+                <h3>Tərcüməçi</h3>
                 <div className="stars">
                     <AiFillStar/>     <AiFillStar/>
                 </div>

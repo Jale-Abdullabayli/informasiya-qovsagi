@@ -12,9 +12,9 @@ function Profil() {
                     <div className='col-md-4 mb-3 mb-md-0'>
                         <div className='profilDetail'>
                             <h1 className='fullName'>Leyla Hacıyeva</h1>
-                            <span className='email'>email: example@gmail.com</span>
-                            <span className='username'>username: lorem</span>
-                            <span className='password'>password: lyl99</span>
+                            <span className='email'>Email: example@gmail.com</span>
+                            <span className='username'>İstifadəçi adı: lorem</span>
+                            <span className='password'>Parol: lyl99</span>
                             <Link to='/registration' className='editProfil'><FiEdit2></FiEdit2><span>Redaktə et</span></Link>
                         </div>
                     </div>

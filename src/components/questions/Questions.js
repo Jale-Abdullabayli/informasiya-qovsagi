@@ -15,7 +15,8 @@ function Questions() {
                      <div className='row'>
                          <div className='col-md-6 mb-3 mb-md-0'>
                          <Link to="/questions/1" className="question">
-                            <h2  className='questionTitle'>Lorem ipsum sit amet consectetur adipisicing elit?</h2>
+                            <h2  className='questionTitle'>
+AWS işlətmək ödənişlidir?</h2>
                             <div className='statistics'>
                                 <h4>Baxış sayı : 9</h4>
                                 <h4>Cavab sayı : 5</h4>
@@ -29,7 +30,8 @@ function Questions() {
                          </div>
                          <div className='col-md-6 mb-3 mb-md-0'>
                          <Link to="/questions/1" className="question">
-                            <h2  className='questionTitle'>Lorem ipsum sit amet consectetur adipisicing elit?</h2>
+                            <h2  className='questionTitle'>
+Azure hesabı ödənişlidir?</h2>
                             <div className='statistics'>
                                 <h4>Baxış sayı : 9</h4>
                                 <h4>Cavab sayı : 5</h4>

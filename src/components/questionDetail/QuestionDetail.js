@@ -9,8 +9,11 @@ function QuestionDetail() {
 
                 <div className="reply">
                     <div className='questionDetail'>
-                        <h2>Lorem ipsum sit amet consectetur adipisicing elit?</h2>
-                        <p>Lorem ipsum sit amet consectetur adipisicing elit. Lorem ipsum sit amet consectetur adipisicing elit</p>
+                        <h2>
+AWS işlətmək ödənişlidir?</h2>
+                        <p>
+
+Öyrənmək məqsədi ilə AWS hesabı açmaq istəyirəm. Bunu ödənişsiz etmək olar?</p>
                     </div>
                     <form>
                         <textarea placeholder="Cavabınız"></textarea>
@@ -32,9 +35,7 @@ function QuestionDetail() {
                             <div className="IsMentor">
                                 Full stack üzrə İQ Köməkçi
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis quae ipsam
-                                vitae
-                                expedita tempore sequi architecto perferendis ullam autem</p>
+                            <p>lk qeydiyyatdan keçdiyiniz zaman "free tier" yəni ödənişsiz seçimi olur. Hesab tam olacaq və sizə bütün imkanlar açıq olacaq, lakin bir neçə servis ödənişsiz kateqoriyasına aiddir yalnız. P.S Qeydiyyatdan keçən zaman yoxlanış üçün bank kartı əlavə etməli olacaqsınız.</p>
                             
                         </div>
                         <form>
@@ -53,9 +54,7 @@ function QuestionDetail() {
                                         <h3>Azər Həsənov</h3>
                                         <span className="date">1 gün əvvəl</span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis quae ipsam
-                                        vitae
-                                        expedita tempore sequi architecto perferendis ullam autem</p>
+                                    <p>lk qeydiyyatdan keçdiyiniz zaman "free tier" yəni ödənişsiz seçimi olur. Hesab tam olacaq və sizə bütün imkanlar açıq olacaq, lakin bir neçə servis ödənişsiz kateqoriyasına aiddir yalnız. P.S Qeydiyyatdan keçən zaman yoxlanış üçün bank kartı əlavə etməli olacaqsınız.</p>
                                    
                                 </div>
 
